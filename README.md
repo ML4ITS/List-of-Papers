@@ -11,7 +11,6 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *Deep Learning for Time Series Classification (InceptionTime)* (2020) [[post]](https://towardsdatascience.com/deep-learning-for-time-series-classification-inceptiontime-245703f422db)
 - *Deep learning for time series classification: a review* (DMKD2019) [[paper]](https://dl.acm.org/doi/10.1007/s10618-019-00619-1)
 
-
 ### Time Series Forecasting
 - *Think Globally, Act Locally: A Deep Neural Network Approach to High-Dimensional Time Series Forecasting* (NIPS2019) [[paper]](http://papers.neurips.cc/paper/8730-think-globally-act-locally-a-deep-neural-network-approach-to-high-dimensional-time-series-forecasting)
 - *Multivariate Temporal Convolutional Network:A Deep Neural Networks Approach for Multivariate Time Series Forecasting* (MDPI2019) [[paper]](https://www.mdpi.com/2079-9292/8/8/876)
@@ -34,20 +33,45 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *Generating Financial Series with Generative Adversarial Networks (blog post)* [[part1]](https://quantdare.com/generating-financial-series-with-generative-adversarial-networks/)[[part2]](https://quantdare.com/generating-financial-series-with-gans-ii/)
 - *Real-valued (Medical) Time Series Generation with Recurrent Conditional GANs* (arXiv2017) [[paper]](https://arxiv.org/abs/1706.02633) [[code (pytorch)]](https://github.com/proceduralia/pytorch-GAN-timeseries)
 
-### Meta-Learning and Few-Shot Learning for TS Analysis
-- *Meta-Learning fir Few-Shot Time Series Classification* (2019) [[paper]](https://arxiv.org/abs/1909.07155)
+### Attention Mechanism for Time Series Analysis
+- *DSANet: Dual Self-Attention Network for Multivariate Time Series Forecasting* (CIKM2019 - Short)
+- *Multivariate Time Series Early Classification with Interpretability Using Deep Learning and Attention Mechanism (ECML-PKDD2019)* [TSC,MV]
+- *Modeling Extreme Events in Time Series Prediction* (KDD2019) [TSF, UV]
+- *Multi-Horizon Time Series Forecasting with Temporal Attention Learning* (KDD2019)
+- *CAMP: Co-Attention Memory Networks for Diagnosis Prediction in Healthcare* (ICDM2019)
+- *Temporal pattern attention for multivariate time series forecasting* (ECML-PKDD2019) [TSF,MV]
+- *MuVAN: A Multi-view Attention Network for Multivariate Temporal Data* (ICDM2018)
+- *Attend and Diagnose: Clinical Time Series Analysis Using Attention Models* (AAAI2018)
+- *A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction* (IJCAI2017) [TSF, UV]
 
 ### Transfer Learning for Time Series
+- *ConvTimeNet: A Pre-trained Deep Convolutional Neural Network for Time Series Classification* (IJCNN2019) [TSC, UV]
 - *Transfer Learning for Financial Time Series Forecasting* (PRICAI2019) [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-29911-8_3)
 - *Time Series Anomaly Detection Using Convolutional Neural Networks and Transfer Learning* (arXiv2019) [[paper]](https://arxiv.org/abs/1905.13628)
 - *Multi-source transfer learning of time series in cyclical manufacturing* (Journal of Intelligent Manufacturing 2019) [[paper]](https://link.springer.com/article/10.1007/s10845-019-01499-4)
 - *Transfer Learning Based Fault Diagnosis with Missing Data Due to Multi-Rate Sampling* (MDPI2019) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514833/)
 - *Transfer learning for time series classification* (IEEE Conference on Big Data2018) [[paper]](https://ieeexplore.ieee.org/document/8621990)
 - *Reconstruction and Regression Loss for Time-Series Transfer Learning* (SIGKDD MiLeTS' 2018) [[paper]](https://milets18.github.io/papers/milets18_paper_2.pdf)
+- *Towards a universal neural network encoder for time series* (CCIA2018) [TSC, UV] 
 - *Transfer Learning with Deep Convolutional Neural Network for SAR Target Classification with Limited Labeled Data* (MDPI2017) [[paper]](https://www.mdpi.com/2072-4292/9/9/907)
 
-### Unsupervised Learning and Representation Learning for TS
+### Unsupervised Learning, Representation Learning and Self Supervised Learning for TS
+- *Self-Supervised Learning for Semi-Supervised Time Series Classification* (PAKDD2020) [TSC, MV]
+- *Self-supervised representation learning from electroencephalography signals* (IEEE MLSP 2019)
 - *Unsupervised Scalable Representation Learning for Multivariate Time Series* (NIPS2019) [[paper]](https://papers.nips.cc/paper/8713-unsupervised-scalable-representation-learning-for-multivariate-time-series) [[code]](https://github.com/White-Link/UnsupervisedScalableRepresentationLearningTimeSeries)
+- *Deep Multivariate Time Series Embedding Clustering via Attentive-Gated Autoencoder* (PAKDD2020) [TSClusering, MV]
+- *Learning Representations for Time Series Clustering* [TSClustering, UV] (NIPS2019)
+- *Unsupervised Scalable Representation Learning for Multivariate Time Series* [TSC, MV] (NIPS2019)
+- *Unsupervised pre-training of a Deep LStM-based Stacked Autoencoder for Multivariate time Series forecasting problems* (NatureSR 2019) [TSF,MV]
+- *Adversarial Unsupervised Representation Learning for Activity Time-Series* (AAAI2019)
+- *A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data* (AAAI2019) [TSAD,MV]
+- *TimeNet: Pre-trained deep recurrent neural network for time series classification*
+
+### Few-Shot Learning for Time Series Classification in Low-Data Regime 
+- *TapNet: Multivariate Time Series Classification with Attentional Prototypical Network* [TSC, MV] (AAAI2020)
+- *Meta-Learning for Few-Shot Time Series Classification* (2019) [[paper]](https://arxiv.org/abs/1909.07155) (ACM-IKDD2020) [UV,TSC]
+- *Deep Prototypical Networks for Imbalanced Time Series Classification under Data Scarcity* (CIKM2019 - Short)
+- *Few-shot Time-series Classification with Dual Interpretability* [TSC]
 
 ### Reservoir Computing for TS Analysis
 - *Analysis of Wide and Deep Echo State Networks for Multiscale Spatiotemporal Time Series Forecasting* (NICE2019) [[paper]](https://dl.acm.org/doi/10.1145/3320288.3320303)

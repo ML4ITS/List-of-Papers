@@ -14,12 +14,17 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 ### Time Series Forecasting
 - *Think Globally, Act Locally: A Deep Neural Network Approach to High-Dimensional Time Series Forecasting* (NIPS2019) [[paper]](http://papers.neurips.cc/paper/8730-think-globally-act-locally-a-deep-neural-network-approach-to-high-dimensional-time-series-forecasting)
 - *Multivariate Temporal Convolutional Network:A Deep Neural Networks Approach for Multivariate Time Series Forecasting* (MDPI2019) [[paper]](https://www.mdpi.com/2079-9292/8/8/876)
+- *Joint Modeling of Local and Global Temporal Dynamics for Multivariate Time Series Forecasting with Missing Values* (IRREGULAR, forecasting with Missing values AAAI2020)
+- *Shape and Time Distortion Loss for Training Deep Time Series Forecasting Models* (IRREGULAR, Non-stationary - NIPS2020)
 - *DIFFUSION CONVOLUTIONAL RECURRENT NEURAL NETWORK: DATA-DRIVEN TRAFFIC FORECASTING* (ICLR2018) [[paper]](https://openreview.net/pdf?id=SJiHXGWAZ)
+- *Time-series Extreme Event Forecasting with Neural Networks at Uber* (2017) (Autoencoder and LSTM for rare event prediction in univariate TS)
+
 
 ### Anomaly Detection / Failure Prediction
 - *Generative Adversarial Networks for Failure Prediction* (ECML2019) [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-46133-1_37)
 - *A GAN-Based Anomaly Detection Approach for Imbalanced Industrial Time Series* (IEEE2019) [[paper]](https://ieeexplore.ieee.org/document/8853246)
 - *DeepAnT: A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series* (IEEE2019) [[paper]](https://ieeexplore.ieee.org/document/8581424)
+- *Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network* (KDD2019)
 
 ### GAN for Data Imputation (Time Series Domain and not)
 - [NoTS] *GAIN: Missing Data Imputation using Generative Adversarial Nets* (IJCAI2018) [[paper](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)] [[code (tensorflow)](https://github.com/jsyoon0823/GAIN), [code2](https://github.com/lethaiq/GAIN)] [mycode]
@@ -34,6 +39,8 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *Real-valued (Medical) Time Series Generation with Recurrent Conditional GANs* (arXiv2017) [[paper]](https://arxiv.org/abs/1706.02633) [[code (pytorch)]](https://github.com/proceduralia/pytorch-GAN-timeseries)
 
 ### Attention Mechanism for Time Series Analysis
+- *Forecasting stock prices with long-short term memory neural network based on attention mechanism* (PlosONE 2020)
+- *DATA-GRU: Dual-Attention Time-Aware Gated Recurrent Unit for Irregular Multivariate Time Series* (IRREGULAR, AAAI2020)
 - *DSANet: Dual Self-Attention Network for Multivariate Time Series Forecasting* (CIKM2019 - Short)
 - *Multivariate Time Series Early Classification with Interpretability Using Deep Learning and Attention Mechanism (ECML-PKDD2019)* [TSC,MV]
 - *Modeling Extreme Events in Time Series Prediction* (KDD2019) [TSF, UV]

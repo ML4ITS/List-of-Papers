@@ -85,9 +85,16 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *Network Traffic Prediction Using Variational Mode Decomposition and Multi- Reservoirs Echo State Network* (IEEE2019) [[paper]](https://ieeexplore.ieee.org/abstract/document/8846010)
 - *Spiking Echo State Convolutional Neural Network for Robust Time Series Classification* (IEEE2018) [[paper]](https://ieeexplore.ieee.org/document/8580574)
 
+### Time Series and Asynchronous data
+- Modeling asynchronous event sequences with RNNs [[paper]](https://www.sciencedirect.com/science/article/pii/S1532046418300996)
+
 ### Latent Models and ODE models for Time Series Modeling
  - *Neural ODEs* (2019) [[paper]](https://arxiv.org/abs/1806.07366), [[code (pytorch)]](https://github.com/rtqichen/torchdiffeq)
  - *Latent ODEs for Irregularly-Sampled Time Series* [[paper]](https://arxiv.org/abs/1907.03907), [[code (pytorch)]](https://github.com/YuliaRubanova/latent_ode)
+
+### Time Series as Images
+- *Multivariate Time Series as Images: Imputation Using Convolutional Denoising Autoencoder (2020)* [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-44584-3_1)
+-
 
 ## Dataset
 - [25 Datasets for Deep Learning in IoT](https://hub.packtpub.com/25-datasets-deep-learning-iot/?utm_source=affiliate&utm_medium=rakuten&utm_campaign=2126220:adgoal.net&utm_content=10&utm_term=us_network&ranMID=45060&ranEAID=a1LgFw09t88&ranSiteID=a1LgFw09t88-rGnxSa5HZICOQ9ewmmK8Kg)
@@ -99,6 +106,12 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - [Measuring Broadband America (MBA)](https://www.fcc.gov/reports-research/reports/measuring-broadband-america/raw-data-measuring-broadband-america-seventh)
 - [Google Cluster Usage Traces (GCUT)](https://github.com/google/cluster-data)
 - [Physionet MIMIC-III](https://mimic.physionet.org/)
+
+### Blog Post and other resources
+- List of state of the art papers focus on deep learning and resources !!!!! [[github repo]](https://github.com/Alro10/deep-learning-time-series)
+- On the Automation of Time Series Forecasting Models: Technical and Organizational Considerations. [[blogpost]](https://towardsdatascience.com/on-the-automation-of-time-series-forecasting-models-technical-and-organizational-considerations-286db3120c8e)
+- PyTorch Dataset for multivariate time series [[code]](https://github.com/JulesBelveze/time-series-dataset)
+
 
 ## Examples
 - [Example-1: CNN for univariate TS forecasting](./Example-1/)

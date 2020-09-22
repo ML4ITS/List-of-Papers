@@ -19,7 +19,6 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *DIFFUSION CONVOLUTIONAL RECURRENT NEURAL NETWORK: DATA-DRIVEN TRAFFIC FORECASTING* (ICLR2018) [[paper]](https://openreview.net/pdf?id=SJiHXGWAZ)
 - *Time-series Extreme Event Forecasting with Neural Networks at Uber* (2017) (Autoencoder and LSTM for rare event prediction in univariate TS)
 
-
 ### Anomaly Detection / Failure Prediction
 - *Generative Adversarial Networks for Failure Prediction* (ECML2019) [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-46133-1_37)
 - *A GAN-Based Anomaly Detection Approach for Imbalanced Industrial Time Series* (IEEE2019) [[paper]](https://ieeexplore.ieee.org/document/8853246)
@@ -88,6 +87,9 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 
 ### Time Series and Asynchronous data
 - Modeling asynchronous event sequences with RNNs [[paper]](https://www.sciencedirect.com/science/article/pii/S1532046418300996)
+
+### Data Reconstruction
+- Deep learning for irregularly and regularly missing data reconstruction [[paper]](https://www.nature.com/articles/s41598-020-59801-x)
 
 ### Latent Models and ODE models for Time Series Modeling
  - *Neural ODEs* (2019) [[paper]](https://arxiv.org/abs/1806.07366), [[code (pytorch)]](https://github.com/rtqichen/torchdiffeq)

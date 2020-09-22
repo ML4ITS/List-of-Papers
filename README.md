@@ -73,6 +73,7 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 - *Adversarial Unsupervised Representation Learning for Activity Time-Series* (AAAI2019)
 - *A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data* (AAAI2019) [TSAD,MV]
 - *TimeNet: Pre-trained deep recurrent neural network for time series classification*
+- *Unsupervised Pre-training of a Deep LSTM-based Stacked Autoencoder for Multivariate Time Series Forecasting Problems* (Nature2019) [TSF,MV]
 
 ### Few-Shot Learning for Time Series Classification in Low-Data Regime 
 - *TapNet: Multivariate Time Series Classification with Attentional Prototypical Network* [TSC, MV] (AAAI2020)
@@ -94,7 +95,10 @@ Refer to [this](https://docs.google.com/document/d/1qw6QkqPOySN6NbkHx6qfSaWEWPHe
 
 ### Time Series as Images
 - *Multivariate Time Series as Images: Imputation Using Convolutional Denoising Autoencoder (2020)* [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-44584-3_1)
--
+
+### Pytorch Packages
+- Pytorch Forecasting [Library](https://towardsdatascience.com/introducing-pytorch-forecasting-64de99b9ef46) [blogpost](https://pytorch-forecasting.readthedocs.io/en/latest/)
+- pyts: a Python package for time series classification [github](https://github.com/johannfaouzi/pyts)
 
 ## Dataset
 - [25 Datasets for Deep Learning in IoT](https://hub.packtpub.com/25-datasets-deep-learning-iot/?utm_source=affiliate&utm_medium=rakuten&utm_campaign=2126220:adgoal.net&utm_content=10&utm_term=us_network&ranMID=45060&ranEAID=a1LgFw09t88&ranSiteID=a1LgFw09t88-rGnxSa5HZICOQ9ewmmK8Kg)
